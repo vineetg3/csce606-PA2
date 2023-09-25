@@ -8,6 +8,10 @@
 
 # Seed the RottenPotatoes DB with some movies.
 more_movies = [
+    {:title => 'Fight Club', :rating => 'R',
+    :release_date => '15-Oct-1999'},
+    {:title => 'The Man from Earth', :rating => 'G',
+    :release_date => '10-June-2007'},
   {:title => 'My Neighbor Totoro', :rating => 'G',
     :release_date => '16-Apr-1988'},
   {:title => 'Green Book', :rating => 'PG-13',
